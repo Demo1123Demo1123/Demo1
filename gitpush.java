@@ -32,4 +32,15 @@ public class PojoUtility {
 		TextReader textreader=new TextReader(Filepath.txtpath);
 		return textreader;
 	}
+public static ExcelReader getsheetobj() throws EncryptedDocumentException, IOException
+	{
+		ExcelReader exr=new ExcelReader(Filepath.excelpath);
+		return exr;
+		
+	}
+	public static TextReader getTextobj() throws IOException {
+		
+		TextReader textreader=new TextReader(Filepath.txtpath);
+		return textreader;
+	}
 }
