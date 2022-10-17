@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employee>
+	<emp>
+		<empname>RAMA</empname>
+		<empsla>1800000</empsla>
+		<empdec>Software</empdec>
+	</emp>
+	<emp>
+		<empname>RAMU</empname>
+		<empsla>12200000</empsla>
+		<empdec>Software</empdec>
+	</emp>
+</employee>

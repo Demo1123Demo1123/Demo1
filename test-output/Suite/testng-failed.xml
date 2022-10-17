@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.ramusoft.automation.lisners.TestcaseAdapter"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.ramusoft.automation.appin.businesses.OpencartTest">
+        <methods>
+          <include name="verifylaptopsandNotebooks"/>
+          <include name="openBrowser"/>
+          <include name="initextentreports"/>
+          <include name="BeforeTestcaseexcution"/>
+          <include name="afterTestcaseexcution"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.ramusoft.automation.appin.businesses.OpencartTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
